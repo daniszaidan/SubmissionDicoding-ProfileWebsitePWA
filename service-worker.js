@@ -8,8 +8,15 @@ var urlsToCache = [
     "/pages/about.html",
     "/pages/contact.html",
     "/css/materialize.min.css",
+    "/css/style.css",
     "/js/materialize.min.js",
-    "/js/script.js"
+    "/images/danis.jpg",
+    "/images/zerolist.jpg",
+    "/images/EndlessCode.jpg",
+    "/images/altamusicc.jpg",
+    "/images/ZeitPlan.jpg",
+    "/images/zerocss.jpg",
+    "/images/DisClass.jpg"
 ];
 
 self.addEventListener("install", function (event) {
