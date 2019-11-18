@@ -1,22 +1,29 @@
-const CACHE_NAME = "daniszaidan-v1";
+const CACHE_NAME = "daniszaidan-v2";
 var urlsToCache = [
     "/",
-    "/navigation.html",
-    "/index.html",
-    "/pages/home.html",
-    "/pages/portfolio.html",
-    "/pages/about.html",
-    "/pages/contact.html",
     "/css/materialize.min.css",
     "/css/style.css",
-    "/js/materialize.min.js",
-    "/images/danis.jpg",
-    "/images/zerolist.jpg",
-    "/images/EndlessCode.jpg",
     "/images/altamusicc.jpg",
+    "/images/danis.jpg",
+    "/images/DisClass.jpg",
+    "/images/email.png",
+    "/images/EndlessCode.jpg",
+    "/images/github.png",
+    "/images/icon.png",
+    "/images/instagram.png",
+    "/images/linkedin.png",
     "/images/ZeitPlan.jpg",
     "/images/zerocss.jpg",
-    "/images/DisClass.jpg"
+    "/images/zerolist.jpg",
+    "/js/materialize.min.js",
+    "/js/script.js",
+    "/pages/about.html",
+    "/pages/contact.html",
+    "/pages/home.html",
+    "/pages/portfolio.html",
+    "/index.html",
+    "/manifest.json",
+    "/navigation.html",
 ];
 
 self.addEventListener("install", function (event) {
