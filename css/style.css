@@ -48,6 +48,11 @@ body, h1, h2, h3, h4, h5, a, p, button{
     border-radius: 50%;
     overflow: hidden;
     transition: all .5s;
+    background-color: #95b2ea;
+}
+.social-media-icon img{
+    width: auto;
+    height: 50%;
 }
 .social-media-icon:hover{
     background-color: #6A94E2;
