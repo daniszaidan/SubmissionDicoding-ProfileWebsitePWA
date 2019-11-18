@@ -6,7 +6,6 @@
 
     <link rel="manifest" href="/manifest.json">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
     <link rel="stylesheet" href="css/materialize.min.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -21,8 +20,9 @@
     <!-- Navigasi -->
     <nav class="bg-color" role="navigation">
         <div class="nav-wrapper container">
-            <a href="#" class="brand-logo" id="logo-container">My Profile</a>
-            <a href="#" class="sidenav-trigger" data-target="nav-mobile">☰</a>
+            <a href="#home" class="brand-logo" id="logo-container"
+                onclick="loadPageContent(event.target.getAttribute('href').substr(1));">My Profile</a>
+            <a href="#home" class="sidenav-trigger" data-target="nav-mobile">☰</a>
 
             <ul class="topnav right hide-on-med-and-down"></ul>
             <ul class="sidenav" id="nav-mobile"></ul>

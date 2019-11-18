@@ -65,6 +65,9 @@ body, h1, h2, h3, h4, h5, a, p, button{
     height: 100%;
     line-height: 60px;
 }
+nav .brand-logo{
+    font-size: 1.3rem;
+}
 
 /*Tablet (Smaller 760px)*/
 @media (max-width: 760px){
